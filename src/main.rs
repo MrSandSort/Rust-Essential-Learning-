@@ -41,7 +41,7 @@ fn main()
         println!("Guess the number:");
         io::stdin().read_line(&mut input);
      
-        let number: i32= input.trim().parse().unwrap();
+        let number: u32= input.trim().parse().unwrap();
         
         if number > 100 || number < 1   
         {
