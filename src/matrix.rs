@@ -12,8 +12,8 @@ fn main()
     {
         for num in row.iter_mut()
         {
-            *num += 10;
-            
+            *num += 10;  // reference and dereference 
+
             print!("{}\t", num)
         }
 

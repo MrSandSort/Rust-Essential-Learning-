@@ -1,6 +1,7 @@
 use std::fs;
 use std::fs::OpenOptions;
-use std::io::Write;
+use std::io::Write; 
+
 
 fn main()
 {
