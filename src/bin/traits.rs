@@ -1,3 +1,8 @@
+// this is all about traits in rust which is somewhat similar to interface in java
+// we have used default traits as well along with that something is returned in string format
+
+
+
 #[derive(Debug)]
 struct Student 
 {
