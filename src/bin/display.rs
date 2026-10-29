@@ -15,6 +15,14 @@ impl fmt::Display for Satellite
     }
 }
 
+fn compare_and_print <T, U>(a:T, b:U)
+
+where T: fmt::Display+ PartialOrd
+
+{
+
+}
+
 fn main()
 {
     let hubble = Satellite
